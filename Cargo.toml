@@ -1,0 +1,11 @@
+[package]
+name = "keepass-extract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+colored = "2.1.0"
+csv = "1.3.0"
+env = "0.1.0"
+keepass-ng = "0.9.0"
